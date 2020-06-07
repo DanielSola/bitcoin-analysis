@@ -12,7 +12,8 @@ from utils.plotters import \
     plot_all_block_transactions, \
     plot_block_transaction_values, \
     plot_time_diff, \
-    plot_avg_block_size
+    plot_avg_block_size, \
+    plot_transactions_by_hour
 
 if __name__ == "__main__":
 
@@ -37,5 +38,6 @@ if __name__ == "__main__":
     plot_avg_block_size(avg_block_sizes)
 
     #Get hourly transactions
-    #transactions_by_hour = get_hourly_transactions(transactions_file_path)
+    transactions_by_hour = get_hourly_transactions(transactions_file_path)
+    plot_transactions_by_hour(transactions_by_hour)
 

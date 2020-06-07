@@ -1,6 +1,5 @@
 import json
 
-
 def get_time_between_blocks(blocks_file_path):
     """
     Return the time between blocks in a file.
