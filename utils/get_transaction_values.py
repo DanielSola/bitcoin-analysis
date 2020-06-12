@@ -1,5 +1,6 @@
 import json
 
+
 def get_transaction_values(blocks_file_path, transactions_file_path):
     '''
     Returns a dictionary containing the sum of values of transactions
